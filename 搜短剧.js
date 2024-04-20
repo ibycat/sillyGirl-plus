@@ -43,7 +43,6 @@ function main(){
     return
   }if(djj.includes(djName)){
     s.reply(`${djName} ${dj.get(djName)}\n保存网盘后即可观看`)
-    //sillyGirl.push({platform: "qq", userId: "137149719", content: `成功：${djName}\n${s.getUserName()}：${s.getUserId()}`})
     return
   }if(matchingDjj.length > 0){
     s.reply(`外链中匹配到剧名，请重新搜全名：\n\n${matchingDjj}`)
