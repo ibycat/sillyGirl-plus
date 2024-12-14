@@ -24,11 +24,11 @@ var { body: { imageUrl: url } } = request({ url: "https://api.2xb.cn/zaob", data
 var content=image(url);
     var groups = [
     {
-         platform: "qq",
+        platform: "qq",
         chatId: "群号",
     },
     {
-         platform: "qq",
+        platform: "qq",
         chatId: "群号",
     },
     ]
